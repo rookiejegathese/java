@@ -4,7 +4,7 @@ public static void main(String[] args)
 {
 Bank manager = new Bank();
 double balance = manager.calculateInterest(100000);
-	System.out.println(balance);
+	System.out.println(balance);// added extra lines 
 	balance = manager.calculateInterest(100000,5);
 	
 System.out.println(balance);
